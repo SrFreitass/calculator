@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./assets/images/calculator.svg" title="calculator icons" type="image/x-icon">
+    <script src="./script.js" defer></script>
+    <title>Calculadora Legal :)</title>
+</head>
+<body>
+    <main>
+        <section>
+        
+        <div id="calculator-container">
+            
+            <div id="viewfinder">
+
+            </div>
+            <div>
+                <button id="clean" onclick="clean()">C</button>
+                <button class="operators orange" class="orange" onclick="insert('**')">^</button>
+                <button class="operators orange" class="orange" onclick="insert(3.1416)">π</button>
+                <button class="operators orange" class="orange" onclick="insert('/')">/</button>
+            </div>
+            <div>
+                <button class="operators" id="7" onclick="insert(7)">7</button>
+                <button class="operators" id="8" onclick="insert(8)">8</button>
+                <button class="operators" id="9" onclick="insert(9)">9</button>
+                <button class="operators orange" onclick="insert('*')">*</button>
+            </div>
+
+            <div>
+                <button class="operators" id="4" onclick="insert(4)">4</button>
+                <button class="operators" id="5" onclick="insert(5)">5</button>
+                <button class="operators" id="6" onclick="insert(6)">6</button>
+                <button class="operators orange" onclick="insert('-')">-</button>
+            </div>
+
+            <div>
+                <button class="operators" id="1" onclick="insert(1)">1</button>
+                <button class="operators" id="2" onclick="insert(2)">2</button>
+                <button class="operators" id="3" onclick="insert(3)">3</button>
+                <button class="operators orange" onclick="insert('+')">+</button>
+            </div>   
+
+            <div>
+                <button onclick="insert(0)"id="nil">0</button>
+                <button onclick="insert('.')">.</button>
+                <button class="operators orange" onclick="calculate()">=</button>
+            </div>
+        </div>
+        <h2>Guilherme Freitas - 2023 </h2>
+        </section>
+
+    </main>
+</body>
+</html>
