@@ -47,6 +47,10 @@ section {
     margin: 0 auto;
 }
 
+#content {
+    color: rgb(200, 200, 200);
+}
+
 button {
     display: flex;
     align-items: center;
