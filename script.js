@@ -15,7 +15,7 @@ function clean() {
 function calculate() {
 
     const numbers = document.querySelector('#result').innerHTML
-    const teste = document.querySelector('#content').innerHTML = numbers
+    const operation = document.querySelector('#content').innerHTML = numbers
     const calculate = document.querySelector('#result').innerHTML = eval(numbers)
        
 }
