@@ -1,7 +1,5 @@
-# https://calculator-srfreitass.vercel.app/ 
-
 # Calculator - EN 🇺🇸/🇬🇧
-
+## https://calculator-srfreitass.vercel.app/ 
 A simple and easy-to-use calculator, created with HTML, CSS, and JS.
 
 <div style="height: 20px;"></div>
