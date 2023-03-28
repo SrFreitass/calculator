@@ -1,6 +1,6 @@
 function insert(num) {
     let number = document.querySelector('#result').innerHTML 
-    if(num === '+' || num === '-' || num === '*' || num === '/'  || num === '**' ) {
+    if(num === '+' || num === '*' || num === '/'  || num === '**' ) {
         if(number === '') {
             return
     }}
