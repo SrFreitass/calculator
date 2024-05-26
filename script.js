@@ -16,6 +16,16 @@ function calculate() {
 
     const numbers = document.querySelector('#result').innerHTML
     const operation = document.querySelector('#content').innerHTML = numbers
-    const calculate = document.querySelector('#result').innerHTML = eval(numbers)
+    const result = eval(numbers)
+    const visor = document.querySelector("#result")	
+
+    if(isNaN(result)) {	
+	visor.innerHTML = "BANIDO DA CALCULADORA"
+	return
+    }
+
+   visor.innerHTML = result
+
+  
        
 }
